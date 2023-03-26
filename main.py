@@ -15,7 +15,7 @@ from threading import Thread
 from time import sleep
 from datetime import datetime
 
-bot = Bot(auths[-1])
+bot = Bot(choice(auths))
 
 class Fore:
     Black = '\u001b[30m'
